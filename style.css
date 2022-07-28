@@ -95,12 +95,12 @@ font-weight: 400;
     padding: 100px 50px;
     border-radius: 5px;
 }
-.register h2{
+#register h2{
     font-size: 30px;
     font-weight: 600;    
     margin-bottom: 20px;
 }
-.registert p{
+#registert p{
     font-size: 18px;
     font-weight: 400;
     

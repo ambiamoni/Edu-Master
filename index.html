@@ -22,7 +22,7 @@
     <header>
         <!-- navbar start -->
         <section>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg bg-light fixed-top">
                 <div class="container">
                     <a class="navbar-brand fs-1 fw-bold" href="#">Edu Master</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,19 +37,19 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item ms-3">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item ms-3">
-                                <a class="nav-link" href="#">Cards</a>
+                                <a class="nav-link" href="#explore">Explore</a>
                             </li>
                             <li class="nav-item ms-3">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#success">Success</a>
                             </li>
                             <li class="nav-item ms-3">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="#about-us">About Us</a>
                             </li>
                             <li class="nav-item ms-3">
-                                <a class="nav-link " href="#">Register</a>
+                                <a class="nav-link " href="#register">Register</a>
                             </li>
                         </ul>
                     </div>
@@ -118,7 +118,7 @@
     </header>
     <main>
         <!-- courses start -->
-        <section class="courses">
+        <section id="courses">
             <div class="container">
                 <div class="heading text-center">
                     <h1>Discover Our Popular <br>Courses</h1>
@@ -254,7 +254,7 @@
         </section>
         <!-- courses end -->
         <!-- explore elearning institute start -->
-        <section class="explore">
+        <section id="explore">
             <div class="container">
                 <div class="row row-cols-2">
                     <div class="col">
@@ -297,7 +297,7 @@
         </section>
         <!-- explore elearning institute end -->
         <!-- register start -->
-        <section class="register">
+        <section id="register">
             <div class="container ">
                 <div class="row bg-success register-bg">
                     <div class="col-8 text-left text-white">
@@ -326,32 +326,33 @@
                                         <form>
                                             <div class="mb-3"></div>
                                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                        </div>
-                                            <div class="mb-3">
-                                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1">
-                                              </div>
-                                        </form>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-outline-success"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-success">Submit</button>
-                                        </div>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
                                     </div>
-                                    
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    </form>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-success"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
-
                     </div>
+
                 </div>
+            </div>
             </div>
         </section>
         <!-- register end -->
 
         <!-- successfull students part start -->
-        <section class="success">
+        <section id="success">
             <div class="container">
                 <div class="text-left">
                     <h1 class="mb-2">Meet Our Successfull <br>Students</h1>
@@ -410,7 +411,7 @@
         </section>
         <!-- success student part end -->
         <!-- student feedback start -->
-        <section class="feedback">
+        <section id="about-us" class="feedback">
             <div class="container">
                 <div class="heading text-center">
                     <h1>Some Students Feedback</h1>
@@ -591,21 +592,14 @@
                 of Oman</p>
             <p> Privacy Ploicy | Terms of use</p>
             <div class="text-white">
-                <i class="fa-brands fa-square-facebook m-2"></i>
-                <i class="fa-brands fa-google-plus m-2"></i>
-                <i class="fa-brands fa-square-instagram m-2"></i>
-                <i class="fa-brands fa-square-twitter m-2"></i>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook m-2"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google-plus m-2"></i></a>               
+                <a href="https://www.instragram.com/" target="_blank"><i class="fa-brands fa-square-instagram m-2"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter m-2"></i></a>
             </div>
-
         </div>
 
     </footer>
-
-
-
-
-
-
 
     <!-- link fontawesome -->
     <script src="https://kit.fontawesome.com/e4e0698f7f.js" crossorigin="anonymous"></script>
