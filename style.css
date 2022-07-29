@@ -52,7 +52,7 @@ carousel-control-next-icon {
   font-weight: 500;
 }
 .heading p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 /* card css */
@@ -123,7 +123,7 @@ carousel-control-next-icon {
 
   .heading {
     width: 473px;
-    margin: 70px auto;
+    margin: 50px auto;
   }
   .heading h1 {
     font-size: 30px;
