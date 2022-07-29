@@ -3,7 +3,7 @@ body {
   background-color: #fff;
 }
 section {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 .navbar ul li a {
   font-size: 16px;
@@ -77,7 +77,6 @@ carousel-control-next-icon {
 }
 /* explore part css */
 .explore-content {
-  padding-top: 120px;
   margin-left: 20px;
 }
 .explore-content h2 {
@@ -114,7 +113,7 @@ carousel-control-next-icon {
 /* Responsive */
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767) {
-  section{
+  section {
     padding-bottom: 60px;
   }
   .edu-master {
@@ -141,13 +140,24 @@ carousel-control-next-icon {
     border: 1px solid #e8e8e8 !important;
     border-radius: 10px !important;
   }
-  .explore-img img{
-    padding:20px
+  .explore-img img {
+    padding: 20px;
   }
 }
 
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991) {
+  .explore-content {
+    padding-top: 0 !important;
+  }
+}
+.explore-img img {
+  width: 100% !important;
+}
+.explore-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Large devices (desktops, 992px and up) */
